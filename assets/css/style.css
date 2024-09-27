@@ -659,7 +659,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: #09203a;
+  background: #fff;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -669,7 +669,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #0f5664;
+  background: #fff;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -714,7 +714,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #042e5f;
+  background: #fff;
   border-color: #0f5664;
 }
 
@@ -723,11 +723,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #0f5664;
+  color: #fff;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #1995AD;
+  background: #fff;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -895,10 +895,10 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #313131;
   padding: 20px;
   width: 100%;
-  background: #09203a;
+  background: #fff;
 }
 
 .contact .info-box i.bx {
@@ -907,12 +907,12 @@ section .container {
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(250, 250, 250, 1.0);
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #28a745;
+  color: #1995AD;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
